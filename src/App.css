@@ -1,8 +1,16 @@
 .App {
   text-align: center;
   height: 100vh;
+  border: solid violet 4px;
+  display: flex;
 }
 
 .container {
-  padding: 2.5rem 0;
+  width: 700px !important;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* padding: 2.5rem 0; */
+  border: solid black 1px;
 }
